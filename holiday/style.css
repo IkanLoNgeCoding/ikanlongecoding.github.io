@@ -44,3 +44,42 @@ a:hover {
 .music-btn:active {
   transform: scale(0.95);
 }
+
+.photo-card {
+  margin-top: 15px;
+  padding: 10px;
+
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+}
+
+.photo-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.photo-caption {
+  margin-top: 8px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.photo-card:hover {
+  transform: scale(1.01);
+  transition: 0.2s;
+}
+
+.shorts {
+  width: 250px;   /* bisa kamu ubah */
+  aspect-ratio: 9 / 16;
+}
+
+.shorts iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+}
