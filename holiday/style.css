@@ -63,7 +63,7 @@ a:hover {
 
 .photo-caption {
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 20px;
   opacity: 0.8;
 }
 
@@ -73,8 +73,8 @@ a:hover {
 }
 
 .shorts {
-  width: 250px;   /* bisa kamu ubah */
-  aspect-ratio: 9 / 16;
+  width: 260px;   /* bisa kamu ubah */
+  margin: auto;
 }
 
 .shorts iframe {
